@@ -1,0 +1,139 @@
+/* nav{
+    background-color: green;
+    
+} */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar__container{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    height: 50px;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+/* .navbar__container a{
+    float: left;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 17px;
+} */
+.navbar__menu{
+    
+    position: relative;
+    float:right;
+}
+#navbar__logo{
+    background-color: red;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    position: absolute;
+    
+    
+}
+.navbar__item{
+    background-color:red;
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    /* left: 1100px; */
+   
+}
+.navbar__btn{
+    background-color: red;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    /* left: 1100px; */
+    
+}
+.navbar__toggle{
+    /* background-color: white;
+    border:5px solid black; */
+    
+}
+.bar{
+    /* background-color: white;
+    border:1px solid black; */
+}
+.photobook{
+    padding-top: 55px;
+    background-color: white;
+    border:1px solid black; 
+    height: 600px;
+    text-align: center;
+    background-image: url(https://swall.teahub.io/photos/small/282-2820540_background-image-for-html-page.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    font-size: large;
+    color: #f2f2f2;
+    
+}
+#home{
+    background-image: url(https://n.sinaimg.cn/spider20210723/423/w1227h796/20210723/683e-dd2bf5cf0e4e8b275ecac6d4053c688e.png);
+}
+.changephoto{
+    width: 500px;
+    margin: auto;
+   background-color: lightblue;
+    opacity: 80%;
+    padding: 5px;
+    font-size: x-large;
+}
+.changephoto img{
+    width: 500px;
+    height:300px;
+}
+
+button{
+    
+    border: 1px solid blue;
+    cursor: pointer;
+    padding: 10px 20px;
+   
+}
+.submitbtn{
+    
+   padding: 15px 30px;
+   margin: 10px 5px;
+}
+.clearbtn{
+    padding: 15px 30px;
+    margin: 100px auto;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+   
+    
+}
+#nameinput{
+    padding:15px 30px;
+}
+#cityinput{
+    padding:15px 30px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--1st nav box-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Logo</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">about</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">services</a>
+
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">signup</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--and rest boxes-->
+    <div class="photobook" id="home">
+        <p id="info">This is No. 1 out of 5</p>
+         <div class="changephoto">
+            <img src="Picture1.png" 
+            alt="Trulli">
+            <button type="button" id="pre" onclick="prev()">previous</button>
+            <button type="button" id="next" onclick="next()">next</button>
+
+         </div>
+             
+        
+    </div>
+    <div class="photobook" id="about">
+        <p id="timer1">about</p>
+        <p>What is HTML?<br>
+            HTML stands for Hyper Text Markup Language<br>
+            HTML is the standard markup language for creating Web pages<br>
+            HTML describes the structure of a Web page<br>
+            HTML consists of a series of elements<br>
+            HTML elements tell the browser how to display the content<br>
+            HTML elements label pieces of content such as "this is a heading", "this is a paragraph",
+             "this is a link", etc.</p>
+       
+    </div>
+    <div class="photobook" id="services">
+        <p>services</p>
+        <p>What Can SQL do?<br>
+            SQL can execute queries against a database<br>
+            SQL can retrieve data from a database<br>
+            SQL can insert records in a database<br>
+            SQL can update records in a database<br>
+            SQL can delete records from a database<br>
+            SQL can create new databases<br>
+            SQL can create new tables in a database<br>
+            SQL can create stored procedures in a database<br>
+            SQL can create views in a database<br>
+            SQL can set permissions on tables, procedures, and views</p>
+
+    </div>
+    <div class ="photobook" id="sign-up">
+        <p>sign-up</p><br>
+        <div class="small-container">
+            
+            <div class="infoinput">
+               <form class="form1">
+                    <input id="nameinput" type="text" placeholder="Name">
+                    <select id="cityinput" type="text" placeholder="City">
+                        <option value="San Francisco" selected>San Francisco</option>
+                        <option value="Los Angels">Los Angels</option>
+                        <option value="San Jose">San Jose</option>
+                        <option value="Daly city">Daly city</option>
+                    </select>
+                    <!-- <input id="cityinput" type="text" placeholder="City"> -->
+                    
+                  </form> 
+                  <button type="submit" class="submitbtn" onclick="submitfunction()">sumbit</button>    
+                  
+                  <ul class="list"></ul>
+            </div>
+            <button type="button" class="clearbtn">Clear All</button>
+          </div>
+
+    </div>
+    <audio id="audio" src="jet.mp3"></audio>
+</body>
+</html>
